@@ -1,0 +1,49 @@
+/* imported font family from google */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: rgba(249, 248, 251, 0.327) !important;
+    
+}
+
+/* stopwatch container */
+
+.container {
+    background-color: rgb(24, 3, 76);
+    width: 50% !important;
+    margin-top: 20vh;
+    height: 50vh;
+    font-size: 10vw;
+    font-family: 'Lato', sans-serif;
+    border-radius: 40px;
+    box-shadow: 1px 1px 11px 8px grey;
+}
+
+/* stopwatch-buttons */
+
+.buttons {
+    font-family: 'Lato', sans-serif;
+}
+
+.buttons button {
+    box-shadow: 1px 1px 8px 4px rgb(112, 106, 106);
+}
+
+/* media-query for less than equal 830 px */
+@media screen and (max-width:830px) {
+    .count-down {
+        position: relative;
+        top: 3vh;
+    }
+
+    .buttons {
+        position: relative;
+        top: 2vh;
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-bottom: 4vh;
+
+    }
+}
