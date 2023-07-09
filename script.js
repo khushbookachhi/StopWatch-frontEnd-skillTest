@@ -20,6 +20,7 @@ start.addEventListener('click', () => {
 //click on stop button
 stop.addEventListener('click', () => {
     counter = false;
+    startWatch=true;
 });
 //click on reset button
 reset.addEventListener('click', () => {
